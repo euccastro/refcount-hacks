@@ -1,0 +1,5 @@
+*.swp
+*.swo
+*.o*
+test-dual-refcount.c
+test-dual-refcount
