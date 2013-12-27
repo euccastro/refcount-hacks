@@ -65,8 +65,6 @@ void register_dependency(void *address, void *target) {
 c-declare-end
 )
 
-(define no-err ((c-lambda () scheme-object "___result = ___FIX(___NO_ERR);")))
-
 (c-define-type void* (pointer void #f))
 
 (define register-dependency!
